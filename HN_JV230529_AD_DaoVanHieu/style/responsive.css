@@ -1,0 +1,64 @@
+@media only screen and (max-width:600px) {
+
+    header {
+        width: 390px;
+        position: relative;
+
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .menuNone {
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .logoApp {
+        display: none;
+    }
+
+    .logoText {
+        position: absolute;
+        top: 10px;
+        color: #fff !important;
+    }
+
+    .gridPoductHots, .productRen1, .productRen2 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .productRen1Item {
+        max-width: 350px;
+    }
+
+    .productRen1Item img, .productRen2Item img {
+        width: 300px;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .tabHeader {
+        display: block;
+    }
+
+    .routePage ul {
+        margin-left: -80px;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .titleProductHot, .titleProductItem {
+        width: 300px;
+        font-size: 20px;
+    }
+
+
+}

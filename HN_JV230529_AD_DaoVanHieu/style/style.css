@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.exame2 {
+    border: 2px solid black;
+    height: 100%;
+}
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+
+}
+
+.contacts ul li:hover, .logoApp ul li:hover, .routePage ul li:hover, .options ul li:hover, .pageSlider li:hover {
+    cursor: pointer;
+}
+
+.menuNone {
+    display: none;
+
+}
+
+.jenny {
+    color: black;
+    font-weight: 600;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    height: 50px;
+}
+
+.contacts ul, .logoApp ul {
+    display: flex;
+    list-style: none;
+    color: #ffffffbb;
+}
+
+.contacts ul li, .logoApp ul li {
+    padding: 0px 15px 0px 15px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.tech {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.light {
+    font-size: 25px;
+}
+
+.container-flex-tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 20px 25px;
+}
+
+.tabHeader {
+    display: flex;
+
+}
+
+.home {
+
+    text-decoration: underline;
+}
+
+.routePage ul, .options ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 30px 0px 50px;
+}
+
+.routePage ul li {
+    padding: 0px 20px;
+    font-weight: 500;
+}
+
+.options ul li {
+    padding-left: 30px;
+}
+
+.centerSlider {
+    text-align: center;
+}
+
+.contentSlider {
+    width: 1300px;
+    padding: 20px 300px;
+}
+
+.slider {
+    padding-bottom: 70px;
+
+}
+
+.omg {
+    width: 750px;
+    text-align: left;
+}
+
+.fashion {
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 37px;
+    padding-bottom: 30px;
+
+}
+
+.detail {
+    color: gray;
+}
+
+.timeday {
+    padding-top: 20px;
+}
+
+.time {
+    color: gray;
+}
+
+.pageSlider {
+    display: flex;
+    list-style: none;
+    gap: 1%;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.pageSlider li {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.565);
+    border-radius: 50%;
+
+}
+
+#butBlack {
+    background-color: black;
+}
+
+.productHot {
+    width: 100%;
+    background-color: rgba(238, 247, 247, 0.519);
+    padding: 50px 0px 100px 0px;
+}
+
+.gridPoductHots {
+    width: 80%;
+    padding: 0px 70px 0px 25px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+
+.itemProductHot img {
+    width: 305px;
+}
+
+.fashionItem {
+    padding: 10px 0px 10px 0px;
+    color: rgba(128, 128, 128, 0.971);
+}
+
+.titleProductHot {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.productDev {
+    padding-top: 50px;
+}
+
+.voleng {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 10px;
+}
+
+.voleng:hover {
+    cursor: pointer;
+}
+
+.productRen {
+    padding: 0px 15px 40px 15px;
+}
+
+.productRen1, .productRen2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1%;
+}
+
+.titleProductItem {
+    font-size: 25px;
+    padding-bottom: 20px;
+    width: 400px;
+}
+
+.productRen2Item img, .productRen1Item img {
+    width: 420px;
+}
+
+footer {
+    background-color: black;
+    color: #ffffffb8;
+
+}
+
+.flexFooterItem {
+    display: flex;
+    padding: 70px 15px 130px 15px;
+}
+
+.logoft {
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.techft {
+    color: #fff;
+}
+
+.lightft {
+    color: #ffffff9a;
+
+}
+
+.footerItem2 {
+    padding-left: 100px;
+}
+
+.footerItem3 {
+    padding-left: 200px;
+}
+
+.footerItem4 {
+    padding-left: 250px;
+}
+
+.footerItem1>p {
+    padding-bottom: 30px;
+}
+
+.footerItem2>p, .footerItem3>p, .footerItem4>p {
+    color: #fff;
+    padding-bottom: 30px;
+}
